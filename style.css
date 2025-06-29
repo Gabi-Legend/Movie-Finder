@@ -23,3 +23,41 @@ body {
   margin: 0;
   border-radius: 16px;
 }
+
+#searchMovie {
+  height: 36px;
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.searchButton {
+  height: 36px;
+  padding: 0 12px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.searchButton:hover {
+  background-color: #9dc9c9;
+  transition: 0.2s;
+}
+
+.searchButton:active {
+  background-color: #819696;
+  transition: 0.2s;
+}
+
+.search-bar {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
