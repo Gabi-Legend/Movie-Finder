@@ -1,24 +1,60 @@
+/*Made by GabiLegend with love:D*/
 body {
   color: white;
-  background-color: black;
+  background-color: #000;
   margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
 }
 
 .container {
-  height: 78%;
-  width: 30%;
-  background-color: #242624;
+  background-color: #1e1f1e;
   border: 2px solid #313632;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
   border-radius: 16px;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+#movieName {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #00ffe1;
+  text-align: center;
+}
+
+#movieImage {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.details {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.details p {
+  margin: 10px 0;
+}
+
+.details strong {
+  color: #00ff88;
+}
+
+a#website {
+  color: #00bfff;
+  text-decoration: underline;
+}
+
+a#website:hover {
+  color: #00ffcc;
 }
